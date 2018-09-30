@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+}
+.el-card {
+    margin: 10px !important;
+    display: inline-block;
+    max-width: 420px;
+}
+.el-aside {
+    height: 100vh;
+    padding-top: 10px;
+    display: block;
+    width: 200px;
+    padding-left: 15px;
+    background-color: #dfdddf;
+}
+.navLink.active {
+    color: #A0C0FE;
+}
+.navLink {
+    display: block;
+    color: #6090DE;
+    font-size: 26px;
+    text-decoration: none;
+    padding: 10px 5px;
+    letter-spacing: 1px;
+}
+.el-header {
+    
+    padding-top: 10px;
+}
+.el-container > .el-footer {
+    height: 40px !important;
+    line-height: 40px;
+    padding: 0 15px;
+    background-color: #dfdddf;
+}
+.el-container > .el-header {
+    position: fixed;
+    top: 10px;
+    width: 83%;
+}
+.el-main.feed-container {
+    
+    overflow-y: scroll;
+}
+.el-card__header {
+	padding:0 20px;
+    max-height: 35px;
+}
+.el-card__header h4 {
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 15px;
+}
+.el-card {
+    vertical-align: top;
+    height: 450px !important;
+}
+.el-card img {
+    width: 100%;
+}
+.el-pagination {
+	white-space: nowrap;
+	padding: 2px 5px;
+	color: #303133;
+	font-weight: 700;
+    display: inline-block;
+}
+.el-input  .el-input__suffix {
+    right: 0;
+}
+.el-input  {
+    
+    display: inline-block;
+    max-width: 360px;
+    margin-left: 15px;
+}
+.el-header label {
+    
+    font-family: Tahoma;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.el-header input {
+    
+}
+.el-main {
+	display: block;
+	box-sizing: border-box;
+	padding: 0;
+}
+.el-container.is-vertical {
+    padding-top: 70px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.infoMain h1 {
+    padding: 5px 40px;
+    font-size: 38px;
+}
+.infoMain p {
+    padding: 0 20px;
+    text-indent: 1.5em;
+    line-height: 1.4;
+    font-size: 20px;
+}

@@ -14,7 +14,7 @@ const actions = {
     }
 }
 const mutations = {
-    UPDATE_STATE (state, data) {
+    UPDATE_STATE (state, data) { // почему UPPERCASE?
         if (data.per_page !== state.per_page || data.gallery_id !== state.gallery_id) {
             state.page = 1;
         } else {
@@ -25,7 +25,7 @@ const mutations = {
 
         } else {
             state.photos = state.photos.concat(data.photo);
-        }
+        } // Тернарки
         state.gallery_id = data.gallery_id;
         state.total = data.total;
         state.per_page = data.per_page;
